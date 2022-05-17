@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 12px 0 14px;
+  background-color: var(--main-green-color);
+  color: var(--main-white-color);
+  border-radius: 5px;
+}
+.header > a {
+  color: var(--main-white-color);
+}
+.header_logo {
+  margin: 24px 133px 23px 14px;
+}
