@@ -1,6 +1,10 @@
+.page-wrapper {
+  /* display: flex; */
+}
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 7px 12px 0 14px;
   background-color: var(--main-green-color);
   color: var(--main-white-color);
@@ -11,4 +15,32 @@
 }
 .header_logo {
   margin: 24px 133px 23px 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    min-width: 724px;
+    min-height: 93px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    min-width: 961px;
+    min-height: 86px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .header {
+    min-width: 1170px;
+    min-height: 101px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .header {
+    min-width: 1663px;
+    min-height: 142px;
+  }
 }
